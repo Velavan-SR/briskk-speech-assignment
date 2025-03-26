@@ -1,0 +1,108 @@
+.voice-search-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.voice-search-box {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.voice-search-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.search-input:focus {
+  border-color: #646cff;
+  box-shadow: 0 2px 5px rgba(100, 108, 255, 0.3);
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button.mic {
+  background-color: #2563eb;
+  color: white;
+}
+
+.button.mic.active {
+  background-color: #ef4444;
+}
+
+.button.upload {
+  background-color: #16a34a;
+}
+
+.button.upload .file-input {
+  display: none;
+}
+
+.suggestions-list {
+  margin-top: 10px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+.processing-text {
+  margin-top: 15px;
+  font-style: italic;
+  color: gray;
+}
+
+.features-section {
+  margin-top: 20px;
+}
+
+.features-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.features-list {
+  text-align: left;
+  margin-top: 10px;
+}
